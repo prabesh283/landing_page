@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prabesh Kharel | Digital Marketing</title>
+    <meta
+      name="description"
+      content="VIP digital marketing landing page for Prabesh Kharel with lead capture form."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="vip-page landing-page">
+      <section class="vip-hero">
+        <div class="brand-lockup">
+          <p class="eyebrow">Digital growth systems for serious brands</p>
+          <h1>Prabesh</h1>
+          <div class="profile-mark" aria-label="Prabesh Kharel profile mark">
+            <span>PK</span>
+          </div>
+          <h2>
+            Helping Your Business Grow With Social Media, Websites, Meta Ads
+            and SEO.
+          </h2>
+          <p class="subcopy">
+            Fill out the short VIP inquiry form below and I will review your
+            business details personally.
+          </p>
+        </div>
+
+        <form class="lead-form vip-form" id="leadForm">
+          <div class="form-heading">
+            <p>VIP Inquiry</p>
+            <h3>Submit Your Details</h3>
+          </div>
+
+          <label>
+            Business Name
+            <input
+              type="text"
+              name="businessName"
+              autocomplete="organization"
+              placeholder="Your business name"
+              required
+            />
+          </label>
+
+          <label>
+            Phone Number
+            <input
+              type="tel"
+              name="phone"
+              autocomplete="tel"
+              placeholder="+1 000 000 0000"
+              required
+            />
+          </label>
+
+          <label>
+            Email
+            <input
+              type="email"
+              name="email"
+              autocomplete="email"
+              placeholder="you@example.com"
+              required
+            />
+          </label>
+
+          <label class="message-field">
+            Message
+            <textarea
+              name="message"
+              rows="4"
+              placeholder="What do you want help with?"
+              required
+            ></textarea>
+          </label>
+
+          <button type="submit">Submit Details</button>
+        </form>
+
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
