@@ -19,8 +19,7 @@ if (flodeskRoot) {
 
   const isSuccessful = () =>
     flodeskRoot.getAttribute("data-ff-stage") === "success" ||
-    flodeskRoot.classList.contains("fd-has-success") ||
-    Boolean(flodeskRoot.querySelector(".fd-has-success, [data-ff-el='success']:not([hidden])"));
+    flodeskRoot.classList.contains("fd-has-success");
 
   const observer = new MutationObserver(() => {
     if (hasRedirected || !isSuccessful()) {
